@@ -3,3 +3,5 @@ using SQL server for data base bunifu framework and metroModern frameworksfro ui
 Somee.com as host
 
 Lovestats.somee.com
+Service:
+http://lovestats.somee.com/Service.asmx
