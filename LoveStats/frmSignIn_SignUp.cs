@@ -105,6 +105,7 @@ namespace LoveStats
         {
             this.Visible = false;
             panel_UC_Sign.Controls.Remove(GetUCLoading);
+            Observer.StopLoadingTimers();
             //loading screen
 
 

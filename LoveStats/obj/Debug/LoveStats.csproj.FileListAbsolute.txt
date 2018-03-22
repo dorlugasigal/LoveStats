@@ -16,6 +16,11 @@ C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\obj\Debug\L
 C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\obj\Debug\LoveStats.exe
 C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\obj\Debug\LoveStats.pdb
 C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\bin\Debug\LoveStats.pdb
-C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\obj\Debug\LoveStats.csprojResolveAssemblyReference.cache
 C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\obj\Debug\LoveStats.UserControls.UC_AddNewStat.resources
 C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\obj\Debug\LoveStats.UserControls.UC_Stats.resources
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\bin\Debug\LiveCharts.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\bin\Debug\LiveCharts.pdb
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\bin\Debug\LiveCharts.xml
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\LoveStats\bin\Debug\LiveCharts.Wpf.xml

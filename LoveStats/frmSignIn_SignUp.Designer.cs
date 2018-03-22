@@ -153,6 +153,7 @@
             this.Controls.Add(this.btnSignUp);
             this.Controls.Add(this.panel_UC_Sign);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmSignIn_SignUp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

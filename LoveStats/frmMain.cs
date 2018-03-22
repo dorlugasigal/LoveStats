@@ -38,10 +38,12 @@ namespace LoveStats
                 return m_ucStats;
             }
         }
+        bool m_isStatsExistsToday; //made for saving calls to the service
 
         public frmMain()
         {
             InitializeComponent();
+            m_isStatsExistsToday = false;
             Observer.GetService().RegisterNewStatsCompleted += FrmMain_RegisterNewStatsCompleted;
         }
 
@@ -59,8 +61,9 @@ namespace LoveStats
                                 );
             panelUC.Controls.Remove(GetUCAddNewStats);
             panelUC.Controls.Add(GetUCStats);
-            panelUC.Controls[0].Dock = DockStyle.Fill;
-            panelUC.Controls[0].BringToFront();
+            GetUCAddNewStats.Dock = DockStyle.Fill;
+            GetUCAddNewStats.BringToFront();
+            Observer.UpdateStatsData();
         }
 
         private void btnMenu_Click(object sender, EventArgs e)
@@ -99,9 +102,10 @@ namespace LoveStats
 
         private void btnNewStats_Click(object sender, EventArgs e)
         {
-            if (Observer.GetService().isStatsExistsToday(Observer.GetUser().userId))
+            if (m_isStatsExistsToday || Observer.GetService().isStatsExistsToday(Observer.GetUser().userId))
             {
                 MetroFramework.MetroMessageBox.Show(this, "You've already submitted stats for today, please wait for tommorrow.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                m_isStatsExistsToday = true;
                 return;
             }
             if (!panelUC.Controls.Contains(GetUCAddNewStats))
@@ -110,7 +114,17 @@ namespace LoveStats
             }
             GetUCAddNewStats.Dock = DockStyle.Fill;
             GetUCAddNewStats.BringToFront();
+        }
 
+        private void btnStats_Click(object sender, EventArgs e)
+        {
+            if (!panelUC.Controls.Contains(GetUCStats))
+            {
+                panelUC.Controls.Add(GetUCStats);
+            }
+            GetUCStats.Dock = DockStyle.Fill;
+            GetUCStats.BringToFront();
+            Observer.UpdateStatsData();
         }
     }
 }

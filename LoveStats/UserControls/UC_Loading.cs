@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LoveStats.Common;
 
 namespace LoveStats.UserControls
 {
@@ -25,6 +26,13 @@ namespace LoveStats.UserControls
             m_colors.Add(Color.FromArgb(156, 39, 176));
 
             CircleProgress.ProgressColor = m_colors[m_cur_color];
+            Observer.onStopLoadingTimers += Observer_onStopLoadingTimers;
+        }
+
+        private void Observer_onStopLoadingTimers()
+        {
+            strech.Stop();
+            color_Transition_Timer.Stop();
         }
 
         int dir = 1;
@@ -73,5 +81,7 @@ namespace LoveStats.UserControls
                 ColorTransition.ProgessValue = 0;
             }
         }
+
+
     }
 }

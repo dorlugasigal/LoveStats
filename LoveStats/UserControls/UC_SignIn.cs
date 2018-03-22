@@ -20,23 +20,39 @@ namespace LoveStats.UserControls
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
+            SignIn();
+        }
+        private void SignIn()
+        {
             lblResult.Text = string.Empty;
             if (txtUsername.Text == string.Empty || txtUsername.Text == "User Name")
             {
-                lblResult.Text += Environment.NewLine;
-                lblResult.Text += "Enter a User Name";
+                MetroFramework.MetroMessageBox.Show(this, "Enter your User Name", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+
             }
             if (txtPassword.Text == string.Empty || txtPassword.Text == "Password")
             {
-                lblResult.Text += Environment.NewLine;
-                lblResult.Text += "Enter a Password";
-            }
-            if (lblResult.Text != string.Empty)
-            {
+                MetroFramework.MetroMessageBox.Show(this, "Enter your Password", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+           
             Observer.ChangeToLoading();
             Observer.GetService().LoginGetAllUserDataAndStatsAsync(txtUsername.Text, txtPassword.Text);
-      }
+        }
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Enter)
+            {
+                SignIn();
+                return true;
+            }
+            else
+            {
+                return base.ProcessCmdKey(ref msg, keyData);
+            }
+        }
+
     }
 }

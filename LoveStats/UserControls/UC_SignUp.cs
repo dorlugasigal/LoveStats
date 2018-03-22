@@ -21,11 +21,7 @@ namespace LoveStats.UserControls
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
-            if (!ManageTextInputs())
-            {
-                return;
-            }
-            Observer.GetService().RegisterNewUserAsync(txtFirstName.Text, txtLastName.Text, txtUserName.Text, txtPhoneNumber.Text, txtEmail.Text, txtPassword.Text);
+            SignUp();
         }
         private bool ManageTextInputs()
         {
@@ -132,6 +128,28 @@ namespace LoveStats.UserControls
             {
                 return true;
             }
+        }
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Enter)
+            {
+                SignUp();
+                return true;
+            }
+            else
+            {
+                return base.ProcessCmdKey(ref msg, keyData);
+            }
+        }
+
+        private void SignUp()
+        {
+            if (!ManageTextInputs())
+            {
+                return;
+            }
+            Observer.GetService().RegisterNewUserAsync(txtFirstName.Text, txtLastName.Text, txtUserName.Text, txtPhoneNumber.Text, txtEmail.Text, txtPassword.Text);
         }
     }
 }
