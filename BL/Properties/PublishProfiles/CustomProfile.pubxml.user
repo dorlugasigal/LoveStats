@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAB7xmh73+PUOR08os3yRgmwAAAAACAAAAAAAQZgAAAAEAACAAAAATwNePgEAGCSu6VJRyv/GjAhjsCZqL0v5fhQMbQJP26gAAAAAOgAAAAAIAACAAAABWfdijNH6kKlASLM0JHDva97fSG20PVHh499hsK6LgFiAAAAA6jtw+dg57jZR+JduE6b0+slbOV/OiSgpyJr+UaPg42EAAAADfCpSAiY0ey5hLh3uXmWll+ihsZu/F60ibVCn8XeTi4k6jN5BKcP4vX/kjTFgdHIzmk6JQWeVGM8pavOv+XU3Y</EncryptedPassword>
+    <_PublishTargetUrl>ftp://LoveStats.somee.com/www.LoveStats.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/BL.dll">
+      <publishTime>03/19/2018 16:00:51</publishTime>
+    </File>
+    <File Include="bin/BL.pdb">
+      <publishTime>03/19/2018 16:00:51</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>03/19/2018 16:00:51</publishTime>
+    </File>
+    <File Include="bin/DAL.pdb">
+      <publishTime>03/19/2018 16:00:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>03/02/2017 12:15:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>03/02/2017 12:15:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ObjectBuilder.dll">
+      <publishTime>03/02/2017 12:15:46</publishTime>
+    </File>
+    <File Include="Service.asmx">
+      <publishTime>03/05/2018 16:23:10</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/19/2018 10:45:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

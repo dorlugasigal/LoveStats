@@ -1,0 +1,12 @@
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\BL\bin\BL.dll.config
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\BL\bin\BL.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\BL\bin\BL.pdb
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\BL\bin\DAL.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\BL\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\BL\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\BL\bin\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\BL\bin\DAL.pdb
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\BL\obj\Release\BL.csprojResolveAssemblyReference.cache
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\BL\obj\Release\BL.csproj.CoreCompileInputs.cache
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\BL\obj\Release\BL.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\BL\obj\Release\BL.pdb

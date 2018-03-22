@@ -1,0 +1,8 @@
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\DAL\bin\Release\DAL.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\DAL\bin\Release\DAL.pdb
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\DAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\DAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\DAL\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\DAL\obj\Release\DAL.dll
+C:\Users\Dor Lugasi\Desktop\VisualStudioProjects\LoveStats\DAL\obj\Release\DAL.pdb
